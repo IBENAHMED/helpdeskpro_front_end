@@ -25,7 +25,6 @@ export default function Register() {
     });
 
     const data = await res.json();
-    console.log(data);
 
     if (res.ok) {
       navigate('/login');
